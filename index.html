@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Webページの説明文 -->
+    <meta name="description" content="未経験からWebエンジニアを目指すYosukeのportforioです。">
+    <!-- facebook プラグイン -->
+    <meta property="og:url" content="https://example.com/old-url" />
+    <title>yo-chan's portforio</title>
+    <!-- css の設定 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ress.css の設定 -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- Goodle fonts の指定 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
+</head>
+
+<body>
+    <div class="main-content-wrapper">
+    <div id="home" class="big-bg">
+    <!-- header 部分 -->
+   <header class="page-header wrapper">
+   <a href="index.html"><img src="images/logo.png" height="80" width="80
+    " alt="HOMEボタン" class="logo-image"></a>
+   <nav>
+       <ul class="main-nav">
+           <li><a href="#home">HOME</a></li>
+           <li><a href="#introduction-bg">ABOUT</a></li>
+           <li><a href="#skill">SKILLS</a></li>
+           <li><a href="#works">WORKS</a></li>
+           <li><a href="#contact-bg">CONTACT</a></li>
+       </ul>
+   </nav>
+</header>
+
+<div class="home-content wrapper">
+    <h2 class="home-title">Yosukeの自己紹介です。</h2>
+    <!-- jsにて時間の表記 -->
+    <p id="choice">ここに日時を表示します</p>
+    <!-- リンク先を書く -->
+    <!-- <a class="button" href="">自己紹介</a> -->
+</div>  <!-- home-content -->
+</div>
+
+<section class="introduction" id="introduction-bg">
+    <img src="images/about-me1.jpeg" alt width="400px" class="my-image">
+    <img src="images/about-me3.jpeg" alt width="400px" class="my-image">
+    <img src="images/about-me2.jpeg" alt width="400px" class="my-image">
+    <div class="introduction-title">
+        <p>My introduction</p>
+    <div class="my-discription">
+        <p>Yosuke Fujii（藤井 洋輔）<br>
+            生年月日：1994年 5月 29日(26歳)<br>
+            出身地　：山口県<br>
+            興味があるものにはすぐに経験をしてみることで<br>
+            道は開かれると持論を持って人生を過ごしています！<br>
+            行ったことのない土地や、黙々と何かに没頭することが好きです！<br>
+            チャレンジすることで経験を得ることを大事にしています！
+        </p>
+    </div><!-- my-discription -->
+</section>
+
+<section class="skill" id="skill">
+    <div class="skill-book">使用した参考書籍、学習サイト<br>
+       <p class="skill-site">  ドットインストール<br>Udemy<br>youtube</p>
+        <div class="image-flex">
+    <img src="images/skill-pic1.jpg" alt width="260" height="320" class="my-image">
+    <img src="images/skill-pic2.jpg" alt width="300" height="400" class="my-image">
+    </div> <!-- image-flex -->
+    </div> <!-- skill-book -->
+        <div class="skill-title">
+            <p class="skill-future">My Skill</p> 
+        <div class="my-skills">
+            2019年,11月 手に職をつけるべきであると決心する<br>
+            2019年,12月 Macbook購入<br>
+            2020年,2月  HTML 学習スタート<br>
+            2020年,3月  CSS  学習スタート<br>
+            2020年,4月  JavaScript 学習スタート、実習課題としてWebサイトを制作<br>
+            2020年,5月　AWS 学習スタート
+        </div>
+            <p class="skill-future">Future</p> 
+        <div class="my-discription">
+        <p>①独自のアプリケーションを制作する。<br>
+            ②顧客の必要としている機能を持ったWebサイト、アプリケーションを制作できる人間になる。<br>
+            ③企業の期待に応えて、その場所に必要な人間になる。<br>
+            ④30歳までにWeb制作、アプリケーション制作において一人前になる。（5年計画）<br>
+            ⑤地方からでも都会に対応できる、それ以上になれることを証明してチャレンジしたい人に夢を与える人間になる。<br>
+        </p>
+        </div> <!-- my-discription -->
+    </div>
+</section>
+
+<section class="works" id="works">
+        <div class="works-title">My products</div>
+        <div class="first-product">
+                <a href="training/index.html"><img src="images/work-1st.jpg" alt="体作りに関するページです。" width="350px" height="250px" class="first-img">
+                <p class="first">1st product</p></a>
+
+                <a href="capris/index.html"><img src="images/work-2nd.jpeg" alt=""自分の所属チームのホームページです。" width="350px" height="250px" class="first-img">
+                    <p class="first">2st product</p></a>
+        </div>
+</section>
+
+<section class="contact" id="contact-bg">
+    <p class="contact-title">お問い合わせフォーム</p>
+    <div class="contact-discription">
+  <form action="#">
+      <div>
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="your-name" class="form-box">
+      </div>
+
+      <div>
+        <label for="name">メールアドレス</label>
+        <input type="email" id="email" name="your-email" class="form-box">
+    </div>
+
+    <div>
+        <label for="name">メッセージ</label>
+        <textarea type="message" id="your-message" name="your-message" class="form-box"></textarea>
+    </div>
+
+    <input type="submit" name="button" class="button">
+  </form>
+    </div>
+</section>
+<section id="sns">
+    <div class="wrapper">       
+
+        <div class="sns-box">
+            <h3 class="sub-title">Twitter</h3>
+            <a class="twitter-timeline" data-height="200" href="https://twitter.com/yosuke143?ref_src=twsrc%5Etfw">Tweets by yosuke143</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        <div class="sns-box">
+            <h3 class="sub-title">Youtube</h3>
+            <iframe width="295.8" height="200" src="https://www.youtube.com/embed/os4LhBunGUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div><!-- wrapper -->
+</section><!-- #sns -->
+<footer class="footer">
+   <div>@yosuke</div>
+</footer>
+</div><!-- main-content-wrapper -->
+<script src="script.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- stickStack -->
+<script src="StickyStack.js-master/jquery.stickystack.min.js"></script>
+<script src="StickyStack.js-master/jquery.stickystack.js"></script>
+<script>jQuery( '.main-content-wrapper' ).stickyStack();</script>
+<!-- partucles -->
+
+</body>
+</html>
